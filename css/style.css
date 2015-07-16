@@ -1,0 +1,56 @@
+ul, li{
+     list-style: none;
+     margin: 0px;
+     padding: 5px;
+     cursor: pointer;
+     }
+     section#cart ul{
+     height: 250px;			
+     overflow: auto;
+     background-color: #cccccc;
+    }
+
+#hsortable_list{
+     list-style: none;
+     margin: 0px;
+     padding: 0px;
+     font: 11px Arial, Helvetica, Geneva, sans-serif;
+     }
+
+#sortable_list{
+     list-style: none;
+     margin: 0px;
+     padding: 0px;
+     font: 11px Arial, Helvetica, Geneva, sans-serif;
+     }
+#hsortable_list li.header div{
+     background-color: #ccc;
+     font-weight: bold;
+     }
+#hsortable_list li div{
+     display: block;
+     float: left;
+     border-bottom: 1px solid #ccc;
+     border-right: 1px solid #ccc;
+     padding: 3px 5px;
+     }
+
+#sortable_list li span{
+     display: block;
+     float: left;
+     border-bottom: 1px solid #ccc;
+     border-right: 1px solid #ccc;
+     padding: 3px 5px;
+     }
+
+#hsortable_list li div.listitem_hid{width: 50px; border-left: 1px solid #ccc;}
+#hsortable_list li div.listitem_hname{width: 300px; }
+#hsortable_list li div.listitem_himage{width: 250px;}
+#hsortable_list li div.listitem_hprice{width: 50px;}
+#hsortable_list li div.listitem_hqty{width: 50px;}
+
+#sortable_list li span.listitem_id{width: 50px; border-left: 1px solid #ccc; height: 69px;}
+#sortable_list li span.listitem_name{width: 300px; height: 69px; }
+#sortable_list li span.listitem_image{width: 250px; height: 69px; }
+#sortable_list li span.listitem_price{width: 50px; height: 69px;}
+#sortable_list li span.listitem_qty{width: 50px; height: 69px;}
